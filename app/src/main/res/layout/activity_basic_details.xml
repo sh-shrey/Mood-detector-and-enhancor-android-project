@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicDetails"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Age-Group?"
+        android:textSize="32sp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <RadioGroup
+        android:id="@+id/basicQues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <RadioButton
+            android:id="@+id/radioBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00-14 years"
+            android:checked="true"
+            android:textSize="22sp"/>
+        <RadioButton
+            android:id="@+id/radioBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15-24 years"
+            android:textSize="22sp"/>
+        <RadioButton
+            android:id="@+id/radioBtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25-45 years"
+            android:textSize="22sp"/>
+        <RadioButton
+            android:id="@+id/radioBtn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45-65 years"
+            android:textSize="22sp"/>
+        <RadioButton
+            android:id="@+id/radioBtn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="65 years and over"
+            android:textSize="22sp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#00BCD4"
+            android:text="Next"
+            android:textColor="@color/colourBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

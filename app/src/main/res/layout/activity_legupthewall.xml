@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Legupthewall">
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="104dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/vd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="121dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/aclonica"
+        android:text="Dashboard"
+        android:textColor="@color/colourBlack" />
+
+    <VideoView
+        android:id="@+id/vd"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="69dp">
+
+    </VideoView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="122dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/vd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/aclonica"
+        android:text="Start Yoga"
+        android:textColor="@color/colourBlack" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="122dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/vd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/aclonica"
+        android:text="Information"
+        android:textColor="@color/colourBlack" />
+
+</RelativeLayout>

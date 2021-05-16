@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shreya.example.mini_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Music_list"></activity>
+        <activity android:name=".Yoga7timer" />
+        <activity android:name=".Seatedforwardbend" />
+        <activity android:name=".Yoga6timer" />
+        <activity android:name=".StandingforwardBend" />
+        <activity android:name=".Yoga5timer" />
+        <activity android:name=".Downwardfacingdog" />
+        <activity android:name=".Yoga4timer" />
+        <activity android:name=".Legupthewall" />
+        <activity android:name=".Yoga3timer" />
+        <activity android:name=".CorpsePose" />
+        <activity android:name=".ReadBooks" />
+        <activity android:name=".FoodMood" />
+        <activity android:name=".MindMusic" />
+        <activity android:name=".MoodPsychology" />
+        <activity android:name=".Exercises" />
+        <activity android:name=".nutreint7" />
+        <activity android:name=".nutreint6" />
+        <activity android:name=".nutrient5" />
+        <activity android:name=".nutreint4" />
+        <activity android:name=".nutrients3" />
+        <activity android:name=".nutrient2" />
+        <activity android:name=".Nutrition_list" />
+        <activity android:name=".Addpostscreen" />
+        <activity android:name=".sukhasanatimer" />
+        <activity android:name=".yoga2timer" />
+        <activity android:name=".Butterflypose" />
+        <activity android:name=".Sukhasana" />
+        <activity android:name=".NeutralMood" />
+        <activity android:name=".BadMood" />
+        <activity android:name=".GoodMood" />
+        <activity android:name=".walkthroughIntro" />
+        <activity android:name=".Timer" />
+        <activity android:name=".Yoga_1" />
+        <activity android:name=".Yoga_Video1" />
+        <activity android:name=".NutrientSuggester" />
+        <activity android:name=".Caloriemeter" />
+        <activity android:name=".Yoga_List" />
+        <activity android:name=".ImageSlider" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".AddPostActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Adapter.Detect" />
+        <activity android:name=".Videos" />
+        <activity android:name=".EnhancingScreen" />
+        <activity android:name=".Music" />
+        <activity android:name=".Questions" />
+        <activity android:name=".BasicDetails" />
+        <activity android:name=".EnhancerTypes" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MindMusic">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_viewm1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="uhp2F43uAV8"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_viewm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="BWMcR35D-cE"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_viewm4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="7QaDGWZNUz0"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_viewm5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="loJjvcKTdQI"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_viewm6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="wKnS8VPxpHI"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_viewm7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="ugTaLEBu6g8"
+                app:autoPlay="false"
+                app:showFullScreenButton="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
